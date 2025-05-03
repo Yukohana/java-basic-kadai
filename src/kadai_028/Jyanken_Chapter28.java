@@ -30,12 +30,10 @@ public class Jyanken_Chapter28 {
 	
 	
 	public String getRandom() {
-	      for (int i = 0 ; i < 3; i++){
-	          //乱数の範囲で指定した3までの数値を出力する
-	          System.out.println(Math.floor(Math.random() * 3));
-	      }
-		return null;
-		}
+		String[] choices = {"r", "s", "p"};
+		String choice = choices[(int) Math.floor(Math.random() * 3)];
+		return choice;
+	}
 		
 	
 	public void playGame() {
