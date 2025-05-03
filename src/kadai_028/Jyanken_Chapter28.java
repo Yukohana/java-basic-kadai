@@ -1,7 +1,6 @@
 package kadai_028;
 
 import java.util.HashMap;
-import java.util.Random;
 import java.util.Scanner;
 
 public class Jyanken_Chapter28 {
@@ -31,11 +30,12 @@ public class Jyanken_Chapter28 {
 	
 	
 	public String getRandom() {
-		Random random = new Random();
-		String[] hands = {"r", "s", "p" };
-		int num = random.nextInt(3);
-		return hands[num];
-}
+	      for (int i = 0 ; i < 3; i++){
+	          //乱数の範囲で指定した3までの数値を出力する
+	          System.out.println(Math.floor(Math.random() * 3));
+	      }
+		return null;
+		}
 		
 	
 	public void playGame() {
