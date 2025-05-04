@@ -12,8 +12,8 @@ public abstract class Kato_Chapter18 {
     
     //共通の紹介を出力するメソッド
     public void commonIntroduce() {
-        System.out.println("名前：" + familyName + " " + givenName);
-        System.out.println("住所：" + address);
+        System.out.println("名前は:" + "加藤" + givenName);
+        System.out.println("住所は:" + "東京都中野区〇×です");
     }
     
     //各サブクラスで個別に実装する必要がある
