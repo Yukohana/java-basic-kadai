@@ -1,15 +1,19 @@
-package kadai_017;
+package kadai_018;
 
 public class KatoTaro_Chapter18 extends Kato_Chapter18 {
 
+	
     public KatoTaro_Chapter18() {
-        familyName = "加藤";
-        givenName = "太郎";
-        address = "東京都";
+        setGivenName("太郎");
     }
 
-    @Override
+    private void setGivenName(String string) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
+
+	@Override
     public void eachIntroduce() {
-        System.out.println("私はJavaが得意です。");
+        System.out.println("私はJavaが得意です");
     }
 }
