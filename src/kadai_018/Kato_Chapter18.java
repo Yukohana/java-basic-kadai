@@ -11,14 +11,7 @@ public abstract class Kato_Chapter18 {
     public String address;
     
 
-    // コンストラクタ
-    public Kato_Chapter18(String familyName, String givenName, String address) {
-        this.familyName = familyName;
-        this.givenName = givenName;
-        this.address = address;
-    }
-    
-    
+   
     
     //共通の紹介を出力するメソッド
     public void commonIntroduce() {

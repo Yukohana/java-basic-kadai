@@ -3,7 +3,7 @@ package kadai_018;
 public class KatoIchiro_Chapter18 extends Kato_Chapter18 {
 
     public KatoIchiro_Chapter18(String familyName, String address) {
-        super(familyName, "", address); // givenName は空で初期化
+        super(); // givenName は空で初期化
         setGivenName();
     }
 
